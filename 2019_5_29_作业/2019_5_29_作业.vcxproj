@@ -76,6 +76,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -115,10 +116,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="func.cpp" />
     <ClCompile Include="源.cpp" />
     <ClCompile Include="源1.cpp" />
     <ClCompile Include="源2.cpp" />
-    <ClCompile Include="源3.cpp" />
+    <ClCompile Include="MailList.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MailList.h" />

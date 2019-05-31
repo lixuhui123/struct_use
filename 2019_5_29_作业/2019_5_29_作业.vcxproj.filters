@@ -24,7 +24,10 @@
     <ClCompile Include="源2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="源3.cpp">
+    <ClCompile Include="MailList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="func.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
