@@ -28,7 +28,7 @@ void MailList()
 		switch (op)
 		{
 		case ADD_MSG:
-			inputDate();
+			inputData();
 			break;
 		case DELETE_MSG:
 			break;
@@ -37,6 +37,7 @@ void MailList()
 		case CHANGE_MSG:
 			break;
 		case DISPALY_MSG:
+			outputData();
 			break;
 		case EMPTY_MSG:
 			break;
@@ -48,7 +49,7 @@ void MailList()
 		}
 	}
 }
-int main()
+int main2()
 {
 	MailList();
 	system("pause");

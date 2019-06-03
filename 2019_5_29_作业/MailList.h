@@ -19,5 +19,6 @@ enum {
 };
 extern struct MailList g_allMsg[1000];
 extern int g_count;
-void inputDate();
+void inputData();
+void outputData();
 #endif //
