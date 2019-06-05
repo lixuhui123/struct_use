@@ -4,6 +4,7 @@
 
 struct MailList g_allMsg[1000];
 int g_count;
+char str[256] = "0";
 int menu()
 {
 	int tmp;
@@ -16,7 +17,19 @@ int menu()
 	);
 	
 	int ret = scanf("%d", &tmp);
-	return ret ? tmp : -1;
+	//return ret ? tmp : -1;
+	if (ret > 0)
+	{
+		return tmp;
+	}
+	else if (ret < 0)
+	{
+		return -1;
+	}
+	else if (ret == 0)
+	{
+		return -1;
+	}
 }
 void MailList()
 
@@ -33,6 +46,10 @@ void MailList()
 		case DELETE_MSG:
 			break;
 		case SEARCH_MSG:
+		
+			printf("请输入要查找的字符串\n");
+			scanf("%s", &str);
+			searchData(str);
 			break;
 		case CHANGE_MSG:
 			break;
@@ -46,10 +63,11 @@ void MailList()
 			break;
 		default:
 			printf("输入有误请重新输入\n");
+			return;
 		}
 	}
 }
-int main2()
+int main()
 {
 	MailList();
 	system("pause");

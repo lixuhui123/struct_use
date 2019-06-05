@@ -21,4 +21,5 @@ extern struct MailList g_allMsg[1000];
 extern int g_count;
 void inputData();
 void outputData();
+void searchData(char *find);
 #endif //

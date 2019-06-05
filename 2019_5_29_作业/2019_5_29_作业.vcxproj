@@ -119,6 +119,7 @@
   <ItemGroup>
     <ClCompile Include="func.cpp" />
     <ClCompile Include="struct_MailList.cpp" />
+    <ClCompile Include="test.cpp" />
     <ClCompile Include="源.cpp" />
     <ClCompile Include="源1.cpp" />
     <ClCompile Include="memory alignment .cpp" />

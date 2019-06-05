@@ -122,6 +122,7 @@ void SortInfo(MailList *ml)
 	}
 }
 
+
 void Test()
 
 {
@@ -164,7 +165,7 @@ void Test()
 		}
 	}
 }
-int main()
+int main2()
 {
 	Test();
 	system("pause");
