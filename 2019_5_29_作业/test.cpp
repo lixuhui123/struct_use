@@ -1,10 +1,14 @@
 #include<stdio.h>
 #include<stdlib.h>
-int main3()
+int mai11()
 {
-	int a = 0;
-	scanf("%d", &a);
-	printf("%d", a);
-	system("pause");
-	return 0;
+/*int a = 0;
+scanf("%d", &a);
+printf("%d", a);*/
+for (int i = 0; i < 2; ++i)
+{
+	printf("²âÊÔ\n");
+}
+system("pause");
+return 0;
 }

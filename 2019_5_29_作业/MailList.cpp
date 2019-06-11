@@ -1,8 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include<memory.h>
 #include"MailList.h"
 
-struct MailList g_allMsg[1000];
+struct MailList g_allMsg[1000];//定义了一个结构体数组，
 int g_count;
 char str[256] = "0";
 int menu()
@@ -37,9 +38,11 @@ void MailList()
 	
 	while (1)
 	{
+
 		int op = menu();
 		switch (op)
 		{
+		
 		case ADD_MSG:
 			inputData();
 			break;
@@ -57,13 +60,16 @@ void MailList()
 			outputData();
 			break;
 		case EMPTY_MSG:
+			memset(g_allMsg, 0, g_count * sizeof(struct MailList));
+			g_count = 0;
 			break;
-		case -1:
+		/*case -1:
 			printf("输入有误请重新输入\n");
-			break;
+			break;*/
 		default:
 			printf("输入有误请重新输入\n");
 			return;
+		
 		}
 	}
 }
