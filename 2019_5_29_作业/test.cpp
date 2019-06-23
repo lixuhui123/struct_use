@@ -1,17 +1,34 @@
 #include<stdio.h>
 #include<stdlib.h>
-#define N 10
-#define S(a,b) a+b
-#define M(a,b) a*b
-#define T(a,b) ((a)*(b))//把括号加到不能加为止
-#define A (365*24*60*60)UL//无符号长整型，跑不过去
-#define W(a,b) a=a^b; b=a^b; a=a^b;
-//#define W(a,b) a=a+b; b=a-b; a=a-b;
-#define Q(a,b) a>b?a:b;
-#define E(a,b) a+(b-a)/2
+//#define N 10
+//#define S(a,b) a+b
+//#define M(a,b) a*b
+//#define T(a,b) ((a)*(b))//把括号加到不能加为止
+//#define A (365*24*60*60)UL//无符号长整型，跑不过去
+//#define W(a,b) a=a^b; b=a^b; a=a^b;
+////#define W(a,b) a=a+b; b=a-b; a=a-b;
+//#define Q(a,b) a>b?a:b;
+//#define E(a,b) a+(b-a)/2
+////#define PRINT(FORMOT,VALUE)\
+//printf("the value is "FORMOT"\n",VALUE);
+//#define PRINT(FORMOT,VALUE)\
+//printf("the value of "#VALUE" is "FORMOT"\n",VALUE);//#把后面的东西变成字符串
+//#define ADD(num,value)\
+//sum##num+=value;
 
 int main()
 {
+	/*char c = '32';
+	printf("%c", c);*/
+//#ifdef N
+//	printf("aaaa");
+//#else
+//	printf("bbb");
+//#endif
+	/*int sum5 = 7;
+	PRINT("%d", 6);
+	ADD(5, 7);
+	printf("%d\n", sum5);*/
 	//宏定义 --预处理命令
 /*int a = 0;
 scanf("%d", &a);
@@ -36,10 +53,10 @@ printf("%d", a);*/
 	printf("a= %d,b= %d",a,b );*/
 	//int c = Q(a, b);
 	//printf("%d", c);
-	float a = 3;
+	/*float a = 3;
 	float b = 4; 
 	float c = E(a, b);
-	printf("%f", c);
+	printf("%f", c);*/
     system("pause");
     return 0;
 }

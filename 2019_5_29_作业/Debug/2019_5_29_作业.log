@@ -1,2 +1,5 @@
 ﻿E:\vs\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(2019_5_29_作业.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  test.cpp
+f:\bite learn\用结构体实现电话黄页\2019_5_29_作业\test.cpp(21): warning C4305: “初始化”: 从“int”到“char”截断
+f:\bite learn\用结构体实现电话黄页\2019_5_29_作业\test.cpp(21): warning C4309: “初始化”: 截断常量值
   2019_5_29_作业.vcxproj -> F:\bite learn\用结构体实现电话黄页\Debug\struct_MailList.exe
