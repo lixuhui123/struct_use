@@ -1,5 +1,2 @@
-﻿E:\vs\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(2019_5_29_作业.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
-  func.cpp
-  struct_MailList.cpp
-  正在生成代码...
-  2019_5_29_作业.vcxproj -> F:\bite learn\用结构体实现电话黄页\Debug\struct_MailList.exe
+﻿G:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(2019_5_29_作业.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  2019_5_29_作业.vcxproj -> E:\bite learn\用结构体实现电话黄页\Debug\struct_MailList.exe
